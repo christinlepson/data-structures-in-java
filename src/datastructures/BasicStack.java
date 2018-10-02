@@ -1,6 +1,8 @@
 package datastructures;
 
-public class BasicStack<X> {
+import interfaces.Stack;
+
+public class BasicStack<X> implements Stack<X> {
 
     private X[] data;
     private int stackPointer;

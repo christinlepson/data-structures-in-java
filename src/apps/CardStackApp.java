@@ -1,9 +1,10 @@
 package apps;
 
-import datastructures.BasicStack;
+import datastructures.ListStack;
+import interfaces.Stack;
 
 public class CardStackApp {
-    BasicStack<String> stack = new BasicStack<String>();
+   Stack<String> stack = new ListStack<String>();
 
     public static void main(String[] args) {
         CardStackApp app = new CardStackApp();
