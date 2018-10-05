@@ -1,9 +1,10 @@
 package apps;
 
 import datastructures.BasicQueue;
+import datastructures.ListQueue;
 
 public class SnowbirdLiftApp {
-    BasicQueue<Gad2Chair> gad2Lift = new BasicQueue<Gad2Chair>();
+    ListQueue<Gad2Chair> gad2Lift = new ListQueue<Gad2Chair>();
 
     public static void main(String[] args) {
         SnowbirdLiftApp app = new SnowbirdLiftApp();

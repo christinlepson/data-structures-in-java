@@ -1,6 +1,8 @@
 package datastructures;
 
-public class BasicQueue<X> {
+import interfaces.Queue;
+
+public class BasicQueue<X> implements Queue<X> {
 
     private X[] data;
     private int front, end;
